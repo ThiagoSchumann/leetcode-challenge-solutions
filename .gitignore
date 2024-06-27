@@ -1,0 +1,43 @@
+# Ignore all __pycache__ directories
+__pycache__/
+
+# Ignore VSCode settings directory
+.vscode/
+
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Ignore PyCharm project files
+.idea/
+
+# Ignore macOS specific files
+.DS_Store
